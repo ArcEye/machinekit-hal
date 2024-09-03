@@ -774,7 +774,7 @@ jobs:
 
     steps:
       - name: Download all built artifacts from GitHub storage
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           path: ./artifacts
 
